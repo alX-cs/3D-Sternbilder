@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/3D-Sternbilder/images/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/3D-Sternbilder/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/3D-Sternbilder/images/favicon-16x16.png">
+		<link rel="manifest" href="/3D-Sternbilder/data/site.webmanifest">
+		<title>3D Sternbilder</title>
+		<meta http-equiv="content-security-policy" content="">
+		<link href="/3D-Sternbilder/_app/immutable/assets/app-d6f769cc.css" rel="stylesheet">
+		<link href="/3D-Sternbilder/_app/immutable/assets/Indicator-1d121e74.css" rel="stylesheet">
+		<link rel="modulepreload" href="/3D-Sternbilder/_app/immutable/start-02f0f167.js">
+		<link rel="modulepreload" href="/3D-Sternbilder/_app/immutable/chunks/index-63268ec4.js">
+		<link rel="modulepreload" href="/3D-Sternbilder/_app/immutable/chunks/singletons-f003703e.js">
+		<link rel="modulepreload" href="/3D-Sternbilder/_app/immutable/chunks/preload-helper-41c905a7.js">
+		<link rel="modulepreload" href="/3D-Sternbilder/_app/immutable/components/pages/_layout.svelte-34fd0b61.js">
+		<link rel="modulepreload" href="/3D-Sternbilder/_app/immutable/chunks/stores-9ed72529.js">
+		<link rel="modulepreload" href="/3D-Sternbilder/_app/immutable/chunks/Indicator.svelte_svelte_type_style_lang-3c3a1caf.js">
+		<link rel="modulepreload" href="/3D-Sternbilder/_app/immutable/modules/pages/_layout.js-9cbb603b.js">
+		<link rel="modulepreload" href="/3D-Sternbilder/_app/immutable/chunks/_layout-da46b06b.js">
+		<link rel="modulepreload" href="/3D-Sternbilder/_app/immutable/components/pages/Methodik/_page.svelte-dd1871ad.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+
+
+<header class="grid-cols-4 grid gap-0 bg-gray-800 text-white font-mono"><p class="col-span-2 lg:col-span-1 xl:col-span-2 ml-2 sm:ml-4 my-6 text-lg sm:text-xl px-2 sm:px-6 rounded border-white border-2 w-fit text-center">3D Sternbilder <br class="xl:hidden"><span class="hidden xl:inline">- </span>Elementare Himmelskunde</p>
+    <nav class="hidden lg:flex col-span-3 xl:col-span-2 items-center justify-center"><ul class="flex-row justify-around flex flex-auto items-center"><li><a class="hover:font-bold hover:cursor-pointer text-xl" href="/3D-Sternbilder/">Home</a>
+            </li><li><a class="hover:font-bold hover:cursor-pointer text-xl" href="/3D-Sternbilder/Visualisierung">Visualisierung</a>
+            </li><li><a class="hover:font-bold hover:cursor-pointer text-xl underline" href="/3D-Sternbilder/Methodik">Methodik</a>
+            </li></ul></nav>
+<nav class="flex lg:hidden col-span-2 items-center justify-center"><img class="w-20 p-2 border-2 solid hover:border-white border-gray-800" src="/3D-Sternbilder/images/menu.svg" alt="Navigationsmenü"></nav>
+<nav class="z-10 fixed top-0 left-0 w-full h-full bg-gray-800  hidden"><img class="mt-10 p-2 mr-8 ml-auto w-10 border-2 solid hover:border-white border-gray-800" src="/3D-Sternbilder/images/exit.svg" alt="Navigationsmenü schließen">
+    <ul class="flex flex-col justify-between h-1/5 mt-10 ml-6"><li><a class="hover:font-bold hover:cursor-pointer text-lg xs:text-2xl" href="/3D-Sternbilder/">Home</a>
+            </li><li><a class="hover:font-bold hover:cursor-pointer text-lg xs:text-2xl" href="/3D-Sternbilder/Visualisierung">Visualisierung</a>
+            </li><li><a class="hover:font-bold hover:cursor-pointer text-lg xs:text-2xl underline" href="/3D-Sternbilder/Methodik">Methodik</a>
+            </li></ul></nav></header>
+<main class="flex flex-col items-center text-gray-900 font-mono"><section class="sm:w-2/3 my-6 mx-4"><h1 class="text-lg sm:text-xl text-center font-bold mb-2">Die Idee:</h1>
+        <p class="text-center sm:text-lg">Die konkrete Idee wurde zuerst dadurch eingeschränkt, dass es möglichst ein Projekt im digitalen Bereich sein sollte, da dort meine persönlichen Stärken liegen.
+            Gleichzeitig wollte ich meine Kompetenzen im Bereich der Webentwicklung weiter ausbauen, sodass die Wahl auf das Gestalten einer Website mit astronomischen Inhalt fiel.
+            Inspiriert durch die bereits vorgeschlagenen Projekte dachte ich zuerst über Lernspiele nach, bald brachte mich eines der vorgestellten Projekte - Die Darstellung eines
+            Sternbildes im dreidimensionalen Raum mit Hilfe eines Modells - auf die Projektidee der 3D-Visualisierung. Dabei war natürlich schnell klar, dass - sofern der Kern des
+            Problems gelöst wurde - sich das Projekt natürlich nicht nur auf ein Sternbild beschränken muss, sondern in der Lage sein sollte alle
+            <a class="underline hover:font-bold" href="https://de.wikipedia.org/wiki/Liste_der_Sternbilder#:~:text=IAU%2DGenitiv%3A%20Nennt%20den%20lateinischen,des%20Sternbildes%20innerhalb%20der%20Himmelskugel." target="_blank" rel="noreferrer">88 Sternbilder der IAU</a> korrekt im dreidimensionalen Raum zu simulieren.
+        </p></section>
+    <section class="sm:w-2/3 my-6 mx-4"><h1 class="text-lg sm:text-xl text-center font-bold mb-2">Die Datenbeschaffung:</h1>
+        <p class="text-center sm:text-lg">Um einen Stern korrekt im dreidimensionalen Raum zu platzieren, braucht es zusätzlich zu den Werten der Deklination und der Rektaszension noch die Entfernung zur Erde.
+           Über diese Daten ist die Postion des Sterns in <a class="underline hover:font-bold" href="https://de.wikipedia.org/wiki/Kugelkoordinaten" target="_blank" rel="noreferrer">Kugelkoordinaten</a> gegeben, welche leicht in kartesische
+           Koordinaten transformiert werden können. Die Entfernung zur Erde kann mit Hilfe der <a class="underline hover:font-bold" href="https://en.wikipedia.org/wiki/Stellar_parallax" target="_blank" rel="noreferrer">Parallaxmethode</a>
+           bestimmt werden. Zuerst musste also eine Datenquelle mit den drei Werten für die Sterne, die eben Teil des Sternbildes sind, gefunden werden. Dazu war außerdem noch eine
+           Quelle nötig, um zu wissen welcher Stern in einem Sternbild über eine Linie mit einem anderen verbunden ist, um die Sternbilder auch in 3D darstellen zu können.
+           Tatsächlich stellte es sich als schwierig heraus eine Quelle zu finden in der die Sterne, die ein Sternbild ausmachen, explizit benannt werden. In der Wissenschaft werden
+           die Konstellationen nämlich nur als Flächen genutzt um den Himmel in verschiedene Gebiete zu unterteilen, die Sternbilder sind jedoch von kaum einer Relevanz. Nachdem ich
+           über Umwege von dem <a class="underline hover:font-bold" href="https://gea.esac.esa.int/archive/" target="_blank" rel="noreferrer">Gaia Archive</a> zu dem <a class="underline hover:font-bold" href="http://tdc-www.harvard.edu/catalogs/bsc5.html" target="_blank" rel="noreferrer">Yale Bright Star Catalog</a>
+           gelangt bin, dachte ich, dass ich eine ausreichende Datenquelle gefunden hätte. In dem Yale Bright Star Catalog fanden sich verschiedene Sterne der Konstellationen,
+           jeweils herausgestellt mit ihrer <a class="underline hover:font-bold" href="https://de.wikipedia.org/wiki/Bayer-Bezeichnung" target="_blank" rel="noreferrer">Bayer-Bezeichnung</a>. Unter der Annahme, dass alle Sterne mit einer
+           Bayer-Bezeichnung ausreichen, um ein Sternbild korrekt darzustellen, wurde der Yale Bright Star Catalog mit Hilfe von <a class="underline hover:font-bold" href="https://www.python.org/" target="_blank" rel="noreferrer">python</a> programmatisch ausgewertet. Dabei wurde schnell
+           klar, dass die Daten in dem Katalog teilweise unvollständig und alt waren, sodass letztendlich nur die Namen der Sterne aus dem Katalog entnommen wurden. Die eigentlichen
+           Werte (Deklination, Rektaszension und Entfernung) wurden dann gewonnen, indem die Liste der Sterne an die
+           <a class="underline hover:font-bold" href="http://simbad.u-strasbg.fr/simbad/sim-basicIdent=m33&submit=SIMBAD+search" target="_blank" rel="noreferrer">SIMBAD Astronomical Database</a> übergeben wurde. Nachdem viele Fehler von
+           Namenskonventionen behoben wurden, zeigte ein erster Visualisierungstest, dass die Annahme in Bezug auf die Visualisierung von Sternbilder nur mit Hilfe von Sternen, die
+           eine Bayer-Bezeichnung haben, falsch war. Es fehlten teilweise Sterne von Sternbildern, sodass dieser Ansatz verworfen werden musste. Letztendlich fand sich nach längerem
+           Suchen in den <a class="underline hover:font-bold" href="https://github.com/Stellarium/stellarium" target="_blank" rel="noreferrer">Dateien von Stellarium</a> eine Datei, die angibt, welche Sterne in einem Sternbild wie miteinander
+           verbunden sind. Dabei war in der Datei die Nummer des Sterns im <a class="underline hover:font-bold" href="https://www.cosmos.esa.int/web/hipparcos/catalogues" target="_blank" rel="noreferrer">Hipparcos Catalogue</a> gegeben, sodass eine
+           zweifelsfreie Identifikation des Sterns mit Hilfe von SIMBAD möglich war. Nun konnten die aufbereiteten Daten, also der Namen des Sterns, seine Koordinaten in kartesischen
+           Koordinaten und Kugelkoordinaten, und seine Verbindungen in einem Sternenbild von der Website genutzt werden.
+        </p></section>
+    <section class="sm:w-2/3 my-6 mx-4"><h1 class="text-lg sm:text-xl text-center font-bold mb-2">Die Website:</h1>
+        <p class="text-center sm:text-lg">Nachdem die Einstiegsseite und die Navigationselemente mit Hilfe der Webentwicklungstechnologien <a class="underline hover:font-bold" href="https://svelte.dev/" target="_blank" rel="noreferrer">Svelte</a>, 
+           <a class="underline hover:font-bold" href="https://kit.svelte.dev/" target="_blank" rel="noreferrer">SvelteKit</a>, <a class="underline hover:font-bold" href="https://flowbite-svelte.com/" target="_blank" rel="noreferrer">Flowbite-Svelte</a> und <a class="underline hover:font-bold" href="https://tailwindcss.com/" target="_blank" rel="noreferrer">Tailwind CSS</a> gestaltet
+           wurden, ging es an die Visualisierung. Dazu wurde die Bibliothek <a class="underline hover:font-bold" href="https://github.com/plotly/plotly.js/" target="_blank" rel="noreferrer">plotly.js</a> für <a class="underline hover:font-bold" href="https://de.wikipedia.org/wiki/JavaScript" target="_blank" rel="noreferrer">JavaScript</a> genutzt, da diese die 
+           Visualisierung von Daten wesentlich erleichtert. Es wurden die kartesischen Koordinaten eingelesen und erfolgreich visualisiert. Später wurden noch die Verbindungslinien 
+           eingefügt. Um eine einfache Vergleichbarkeit mit der bekannten 2D-Darstellung eines Sternbildes zu erlauben,
+           wurde die 2D-Darstellung ebenfalls implementiert. Dazu wurde eine <a class="underline hover:font-bold" href="https://de.wikipedia.org/wiki/Orthografische_Azimutalprojektion" target="_blank" rel="noreferrer">Orthografische Azimutalprojektion</a> genutzt.
+           Als Zusatzfunktion wurde noch eine Rotationsfunktion eingebaut, die mit Hilfe der <a class="underline hover:font-bold" href="https://de.wikipedia.org/wiki/Drehmatrix" target="_blank" rel="noreferrer">Drehmatrix</a> für den 2D-Raum realisiert wird.
+           Wer noch mehr erfahren möchte, der kann sich die Quelldateien unter 
+           <a class="underline hover:font-bold" href="https://github.com/alX-cs/3D_Star_Constellations" target="_blank" rel="noreferrer">https://github.com/alX-cs/3D_Star_Constellations</a> anschauen.
+        </p></section></main>
+<footer class="p-flex items-center justify-center fixed bottom-0 left-0"><span class="block text-sm text-gray-900">© 2023
+  <span class="ml-1">Alexander Moog</span>
+  . </span></footer>
+
+
+		<script type="module" data-sveltekit-hydrate="pxsjm3">
+			import { start } from "/3D-Sternbilder/_app/immutable/start-02f0f167.js";
+
+			start({
+				env: {},
+				paths: {"base":"/3D-Sternbilder","assets":"/3D-Sternbilder"},
+				target: document.querySelector('[data-sveltekit-hydrate="pxsjm3"]').parentNode,
+				version: "1674212289536",
+				hydrate: {
+					node_ids: [0, 3],
+					data: [null,null],
+					form: null
+				}
+			});
+		</script>
+	</div>
+	</body>
+</html>
+
+

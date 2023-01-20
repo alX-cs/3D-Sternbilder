@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/3D-Sternbilder/images/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/3D-Sternbilder/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/3D-Sternbilder/images/favicon-16x16.png">
+		<link rel="manifest" href="/3D-Sternbilder/data/site.webmanifest">
+		<title>3D Sternbilder</title>
+		<meta http-equiv="content-security-policy" content="">
+		<link href="/3D-Sternbilder/_app/immutable/assets/app-d6f769cc.css" rel="stylesheet">
+		<link href="/3D-Sternbilder/_app/immutable/assets/Indicator-1d121e74.css" rel="stylesheet">
+		<link rel="modulepreload" href="/3D-Sternbilder/_app/immutable/start-02f0f167.js">
+		<link rel="modulepreload" href="/3D-Sternbilder/_app/immutable/chunks/index-63268ec4.js">
+		<link rel="modulepreload" href="/3D-Sternbilder/_app/immutable/chunks/singletons-f003703e.js">
+		<link rel="modulepreload" href="/3D-Sternbilder/_app/immutable/chunks/preload-helper-41c905a7.js">
+		<link rel="modulepreload" href="/3D-Sternbilder/_app/immutable/components/pages/_layout.svelte-34fd0b61.js">
+		<link rel="modulepreload" href="/3D-Sternbilder/_app/immutable/chunks/stores-9ed72529.js">
+		<link rel="modulepreload" href="/3D-Sternbilder/_app/immutable/chunks/Indicator.svelte_svelte_type_style_lang-3c3a1caf.js">
+		<link rel="modulepreload" href="/3D-Sternbilder/_app/immutable/modules/pages/_layout.js-9cbb603b.js">
+		<link rel="modulepreload" href="/3D-Sternbilder/_app/immutable/chunks/_layout-da46b06b.js">
+		<link rel="modulepreload" href="/3D-Sternbilder/_app/immutable/components/pages/Visualisierung/_page.svelte-d0199c64.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+
+
+<header class="grid-cols-4 grid gap-0 bg-gray-800 text-white font-mono"><p class="col-span-2 lg:col-span-1 xl:col-span-2 ml-2 sm:ml-4 my-6 text-lg sm:text-xl px-2 sm:px-6 rounded border-white border-2 w-fit text-center">3D Sternbilder <br class="xl:hidden"><span class="hidden xl:inline">- </span>Elementare Himmelskunde</p>
+    <nav class="hidden lg:flex col-span-3 xl:col-span-2 items-center justify-center"><ul class="flex-row justify-around flex flex-auto items-center"><li><a class="hover:font-bold hover:cursor-pointer text-xl" href="/3D-Sternbilder/">Home</a>
+            </li><li><a class="hover:font-bold hover:cursor-pointer text-xl underline" href="/3D-Sternbilder/Visualisierung">Visualisierung</a>
+            </li><li><a class="hover:font-bold hover:cursor-pointer text-xl" href="/3D-Sternbilder/Methodik">Methodik</a>
+            </li></ul></nav>
+<nav class="flex lg:hidden col-span-2 items-center justify-center"><img class="w-20 p-2 border-2 solid hover:border-white border-gray-800" src="/3D-Sternbilder/images/menu.svg" alt="Navigationsmenü"></nav>
+<nav class="z-10 fixed top-0 left-0 w-full h-full bg-gray-800  hidden"><img class="mt-10 p-2 mr-8 ml-auto w-10 border-2 solid hover:border-white border-gray-800" src="/3D-Sternbilder/images/exit.svg" alt="Navigationsmenü schließen">
+    <ul class="flex flex-col justify-between h-1/5 mt-10 ml-6"><li><a class="hover:font-bold hover:cursor-pointer text-lg xs:text-2xl" href="/3D-Sternbilder/">Home</a>
+            </li><li><a class="hover:font-bold hover:cursor-pointer text-lg xs:text-2xl underline" href="/3D-Sternbilder/Visualisierung">Visualisierung</a>
+            </li><li><a class="hover:font-bold hover:cursor-pointer text-lg xs:text-2xl" href="/3D-Sternbilder/Methodik">Methodik</a>
+            </li></ul></nav></header>
+
+
+<main><div class="flex flex-col mt-4"><div class="flex justify-center flex-wrap items-stretch"><div class="mx-2 my-2 flex flex-col"><button type="button" class="text-center font-medium focus:ring-4 focus:outline-none inline-flex items-center justify-center px-5 py-2.5 text-sm text-white bg-gray-800 hover:bg-gray-900 focus:ring-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 rounded-lg">3D Ansicht</button> 
+                <div class="mt-2">
+  <label class="text-sm font-medium block text-gray-900 dark:text-gray-300 flex items-center"><input type="checkbox" value="" class="w-4 h-4 bg-gray-100 border-gray-300 dark:ring-offset-gray-800 focus:ring-2 mr-2 dark:bg-gray-700 dark:border-gray-600 rounded text-blue-600 focus:ring-blue-500 dark:focus:ring-blue-600">Linien in 3D</label>
+                    <p class="text-xs font-normal text-gray-500 dark:text-gray-300 text-gray-900 dark:text-gray-300">Kann zu erhöhten Ladezeiten führen</p></div></div>
+            <div class="mx-2 my-2 flex flex-col">
+  <label class="text-sm font-medium block text-center text-gray-900 dark:text-gray-300">Sternbild (IAU)
+                    <select class="block w-full text-gray-900 bg-gray-50 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 text-sm p-2 mt-2"><option disabled selected value="">Sternenbild auswählen</option><option value="Andromeda">Andromeda</option><option value="Antlia">Antlia</option><option value="Apus">Apus</option><option value="Aquarius">Aquarius</option><option value="Aquila">Aquila</option><option value="Ara">Ara</option><option value="Aries">Aries</option><option value="Auriga">Auriga</option><option value="Bootes">Bootes</option><option value="Caelum">Caelum</option><option value="Camelopardalis">Camelopardalis</option><option value="Cancer">Cancer</option><option value="Canes Venatici">Canes Venatici</option><option value="Canis Major">Canis Major</option><option value="Canis Minor">Canis Minor</option><option value="Capricornus">Capricornus</option><option value="Carina">Carina</option><option value="Cassiopeia">Cassiopeia</option><option value="Centaurus">Centaurus</option><option value="Cepheus">Cepheus</option><option value="Cetus">Cetus</option><option value="Chamaeleon">Chamaeleon</option><option value="Circinus">Circinus</option><option value="Columba">Columba</option><option value="Coma Berenices">Coma Berenices</option><option value="Corona Australis">Corona Australis</option><option value="Corona Borealis">Corona Borealis</option><option value="Corvus">Corvus</option><option value="Crater">Crater</option><option value="Crux">Crux</option><option value="Cygnus">Cygnus</option><option value="Delphinus">Delphinus</option><option value="Dorado">Dorado</option><option value="Draco">Draco</option><option value="Equuleus">Equuleus</option><option value="Eridanus">Eridanus</option><option value="Fornax">Fornax</option><option value="Gemini">Gemini</option><option value="Grus">Grus</option><option value="Hercules">Hercules</option><option value="Horologium">Horologium</option><option value="Hydra">Hydra</option><option value="Hydrus">Hydrus</option><option value="Indus">Indus</option><option value="Lacerta">Lacerta</option><option value="Leo">Leo</option><option value="Leo Minor">Leo Minor</option><option value="Lepus">Lepus</option><option value="Libra">Libra</option><option value="Lupus">Lupus</option><option value="Lynx">Lynx</option><option value="Lyra">Lyra</option><option value="Mensa">Mensa</option><option value="Microscopium">Microscopium</option><option value="Monoceros">Monoceros</option><option value="Musca">Musca</option><option value="Norma">Norma</option><option value="Octans">Octans</option><option value="Ophiuchus">Ophiuchus</option><option value="Orion">Orion</option><option value="Pavo">Pavo</option><option value="Pegasus">Pegasus</option><option value="Perseus">Perseus</option><option value="Phoenix">Phoenix</option><option value="Pictor">Pictor</option><option value="Pisces">Pisces</option><option value="Piscis Austrinus">Piscis Austrinus</option><option value="Puppis">Puppis</option><option value="Pyxis">Pyxis</option><option value="Reticulum">Reticulum</option><option value="Sagitta">Sagitta</option><option value="Sagittarius">Sagittarius</option><option value="Scorpius">Scorpius</option><option value="Sculptor">Sculptor</option><option value="Scutum">Scutum</option><option value="Serpens">Serpens</option><option value="Sextans">Sextans</option><option value="Taurus">Taurus</option><option value="Telescopium">Telescopium</option><option value="Triangulum">Triangulum</option><option value="Triangulum Australe">Triangulum Australe</option><option value="Tucana">Tucana</option><option value="Ursa Major">Ursa Major</option><option value="Ursa Minor">Ursa Minor</option><option value="Vela">Vela</option><option value="Virgo">Virgo</option><option value="Volans">Volans</option><option value="Vulpecula">Vulpecula</option></select></label></div>
+            <div class="mx-2 my-2">
+  <label class="text-sm font-medium block text-center text-gray-900 dark:text-gray-300">Sternbild (Deutsch)
+                    <select class="block w-full text-gray-900 bg-gray-50 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 text-sm p-2 mt-2"><option disabled selected value="">Sternenbild auswählen</option><option value="Puppis">Achterdeck des Schiffs</option><option value="Aquila">Adler</option><option value="Ara">Altar</option><option value="Andromeda">Andromeda</option><option value="Crater">Becher</option><option value="Sculptor">Bildhauer</option><option value="Bootes">Bärenhüter</option><option value="Chamaeleon">Chamäleon</option><option value="Fornax">Chemischer Ofen</option><option value="Delphinus">Delphin</option><option value="Draco">Drache</option><option value="Triangulum">Dreieck</option><option value="Lacerta">Eidechse</option><option value="Monoceros">Einhorn</option><option value="Eridanus">Eridanus</option><option value="Pisces">Fische</option><option value="Musca">Fliege</option><option value="Volans">Fliegender Fisch</option><option value="Vulpecula">Fuchs</option><option value="Auriga">Fuhrmann</option><option value="Equuleus">Füllen</option><option value="Camelopardalis">Giraffe</option><option value="Caelum">Grabstichel</option><option value="Ursa Major">Großer Bär</option><option value="Canis Major">Großer Hund</option><option value="Coma Berenices">Haar der Berenike</option><option value="Lepus">Hase</option><option value="Hercules">Herkules</option><option value="Indus">Indianer (Inder)</option><option value="Canes Venatici">Jagdhunde</option><option value="Virgo">Jungfrau</option><option value="Cassiopeia">Kassiopeia</option><option value="Cepheus">Kepheus</option><option value="Carina">Kiel des Schiffs</option><option value="Hydrus">Kleine Wasserschlange</option><option value="Ursa Minor">Kleiner Bär</option><option value="Canis Minor">Kleiner Hund</option><option value="Leo Minor">Kleiner Löwe</option><option value="Grus">Kranich</option><option value="Cancer">Krebs</option><option value="Crux">Kreuz des Südens</option><option value="Lyra">Leier</option><option value="Lynx">Luchs</option><option value="Antlia">Luftpumpe</option><option value="Leo">Löwe</option><option value="Pictor">Maler</option><option value="Microscopium">Mikroskop</option><option value="Reticulum">Netz</option><option value="Corona Borealis">Nördliche Krone</option><option value="Octans">Oktant</option><option value="Orion">Orion</option><option value="Apus">Paradiesvogel</option><option value="Pegasus">Pegasus</option><option value="Horologium">Pendeluhr</option><option value="Perseus">Perseus</option><option value="Pavo">Pfau</option><option value="Sagitta">Pfeil</option><option value="Phoenix">Phönix</option><option value="Corvus">Rabe</option><option value="Pyxis">Schiffskompass</option><option value="Scutum">Schild</option><option value="Serpens">Schlange</option><option value="Ophiuchus">Schlangenträger</option><option value="Cygnus">Schwan</option><option value="Dorado">Schwertfisch</option><option value="Sagittarius">Schütze</option><option value="Vela">Segel des Schiffs</option><option value="Sextans">Sextant</option><option value="Scorpius">Skorpion</option><option value="Capricornus">Steinbock</option><option value="Taurus">Stier</option><option value="Corona Australis">Südliche Krone</option><option value="Piscis Austrinus">Südlicher Fisch</option><option value="Triangulum Australe">Südliches Dreieck</option><option value="Mensa">Tafelberg</option><option value="Columba">Taube</option><option value="Telescopium">Teleskop</option><option value="Tucana">Tukan</option><option value="Libra">Waage</option><option value="Cetus">Walfisch</option><option value="Aquarius">Wassermann</option><option value="Hydra">Wasserschlange</option><option value="Aries">Widder</option><option value="Norma">Winkelmaß</option><option value="Lupus">Wolf</option><option value="Centaurus">Zentaur</option><option value="Circinus">Zirkel</option><option value="Gemini">Zwillinge</option></select></label></div>
+            <div class="w-1/4 mx-2 my-2">
+  <label for="rotation_slider" class="text-sm font-medium block text-center text-gray-900 dark:text-gray-300">Rotation</label>
+                <input type="range" id="rotation_slider" min="0" max="360" step="1" class="w-full bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700 h-2" value="0">
+                
+  <label for="rotation_slider" class="text-sm font-medium block text-center text-gray-900 dark:text-gray-300">Wert: 0°</label></div></div>
+        <div class="py-4 w-full solid border-b-2 border-black"></div>
+        <div class="flex justify-center" id="constellation"></div></div></main>
+<footer class="p-flex items-center justify-center fixed bottom-0 left-0"><span class="block text-sm text-gray-900">© 2023
+  <span class="ml-1">Alexander Moog</span>
+  . </span></footer>
+
+
+		<script type="module" data-sveltekit-hydrate="24vuhy">
+			import { start } from "/3D-Sternbilder/_app/immutable/start-02f0f167.js";
+
+			start({
+				env: {},
+				paths: {"base":"/3D-Sternbilder","assets":"/3D-Sternbilder"},
+				target: document.querySelector('[data-sveltekit-hydrate="24vuhy"]').parentNode,
+				version: "1674212289536",
+				hydrate: {
+					node_ids: [0, 4],
+					data: [null,null],
+					form: null
+				}
+			});
+		</script>
+	</div>
+	</body>
+</html>
+
+
